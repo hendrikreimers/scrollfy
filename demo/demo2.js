@@ -7,7 +7,6 @@ $(document).ready(function() {
     // Scrollfy needs to be called at last, after the event listeners added, to be sure it will be visible on load
     $('div.block')
 		.on('scrollfy:inView', function(e) {
-			console.log('jap');
 			if ( !$(this).hasClass('inview') ) {
 				$(this).delay(100).addClass('inview');
 			}

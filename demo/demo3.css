@@ -1,0 +1,36 @@
+html, body {
+	margin: 0 20%;
+	padding: 0;
+	font-family: Arial;
+	font-size: 0.85em;
+	color: #000;
+	background: #fff;
+}
+
+body {
+	border: 5px solid #fff;
+}
+
+div.block {
+	width: 50px;
+	height: 400px;
+	border: 1px solid #ccc;
+	margin: 20px 0;
+	padding: 15%;
+
+	background-color: #eee;
+	margin: 1500px 0;
+
+	transition: background-color .2s;
+}
+
+.block p {
+	border: 1px dashed red;
+	font-size: 2em;
+	font-weight: bold;
+	text-align: center;
+}
+
+.block.inview {
+	background-color: lightcoral;
+}
